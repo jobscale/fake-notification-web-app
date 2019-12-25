@@ -1,14 +1,14 @@
 {
-  "main.css": "/fake-notification-web-app/static/css/main.c27bb758.chunk.css",
-  "main.js": "/fake-notification-web-app/static/js/main.bf7d993f.chunk.js",
-  "main.js.map": "/fake-notification-web-app/static/js/main.bf7d993f.chunk.js.map",
-  "static/js/1.a640253c.chunk.js": "/fake-notification-web-app/static/js/1.a640253c.chunk.js",
-  "static/js/1.a640253c.chunk.js.map": "/fake-notification-web-app/static/js/1.a640253c.chunk.js.map",
+  "main.css": "/fake-notification-web-app/static/css/main.cb247ddd.chunk.css",
+  "main.js": "/fake-notification-web-app/static/js/main.56abdd60.chunk.js",
+  "main.js.map": "/fake-notification-web-app/static/js/main.56abdd60.chunk.js.map",
+  "static/js/1.eea6ecef.chunk.js": "/fake-notification-web-app/static/js/1.eea6ecef.chunk.js",
+  "static/js/1.eea6ecef.chunk.js.map": "/fake-notification-web-app/static/js/1.eea6ecef.chunk.js.map",
   "runtime~main.js": "/fake-notification-web-app/static/js/runtime~main.1ab9280f.js",
   "runtime~main.js.map": "/fake-notification-web-app/static/js/runtime~main.1ab9280f.js.map",
-  "static/css/main.c27bb758.chunk.css.map": "/fake-notification-web-app/static/css/main.c27bb758.chunk.css.map",
   "static/media/index.sass": "/fake-notification-web-app/static/media/background.e570a7be.jpg",
+  "static/css/main.cb247ddd.chunk.css.map": "/fake-notification-web-app/static/css/main.cb247ddd.chunk.css.map",
   "index.html": "/fake-notification-web-app/index.html",
-  "precache-manifest.e649406fe6db6474151065449cab8726.js": "/fake-notification-web-app/precache-manifest.e649406fe6db6474151065449cab8726.js",
+  "precache-manifest.53d0acb475c3bab2bc41375f8bb3bc9b.js": "/fake-notification-web-app/precache-manifest.53d0acb475c3bab2bc41375f8bb3bc9b.js",
   "service-worker.js": "/fake-notification-web-app/service-worker.js"
 }
