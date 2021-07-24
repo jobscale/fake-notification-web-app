@@ -297,7 +297,7 @@ class App extends Component {
               <div className="modal__card">
                 <div className="modal__card__title">メニュー</div>
                 <div className="modal__card__body">
-                  <a
+                  <a href
                     className="button"
                     onClick={this.startTwitterMode}
                   >
@@ -309,7 +309,7 @@ class App extends Component {
               <div className="modal__card">
                 <div className="modal__card__body">
                   <p style={{ lineHeight: '40px', fontWeight: 800 }}>《録画した画面をシェアして楽しもう！》</p>
-                  <a
+                  <a href
                     onClick={() => this.setState({
                       isOpenMenu: false,
                       isOpenExplanation: true
@@ -318,7 +318,7 @@ class App extends Component {
                     全画面表示にする方法
                   </a>
                   <br />
-                  <a href="https://support.apple.com/ja-jp/HT207935" target="_blank">
+                  <a href="https://support.apple.com/ja-jp/HT207935">
                     iPhoneの画面を録画する方法
                   </a>
                   <br />
@@ -328,14 +328,13 @@ class App extends Component {
                   <a
                     href="https://twitter.com/share?url=https://bit.ly/2Bvyx3i&amp;text=%e9%80%9a%e7%9f%a5%e6%ad%a2%e3%81%be%e3%82%89%e3%82%93www%e3%82%92%e4%bd%93%e9%a8%93%e3%81%a7%e3%81%8d%e3%82%8b%e3%82%88%ef%bc%81%0a%23%e9%80%9a%e7%9f%a5%e6%ad%a2%e3%81%be%e3%82%89%e3%82%93w"
                     onclick="window.open(encodeURI(decodeURI(this.href)), 'TWwindow', 'width=560, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;"
-                    target="_blank"
                     className="share-tweet"
                   >
                     <span className="share-tweet-icon" />このサイトをTwitterでシェア
                   </a>
                   <br />
                   <br />
-                  <small>開発者：<a href="https://twitter.com/okumura_daiki" target="_blank">@okumura_daiki</a></small>
+                  <small>開発者：<a href="https://twitter.com/okumura_daiki">@okumura_daiki</a></small>
                 </div>
               </div>
             </div>
@@ -372,7 +371,7 @@ class App extends Component {
                   <p><small>Twitterアプリでご覧の方は <span className="safari-icon" /> から開いてください。</small></p>
                   <p>◆ Safariの <span className="share-icon" /> から <span className="add-home-icon" /> を押して「ホーム画面に追加」してください。</p>
                   <br />
-                  <a
+                  <a href
                     style={{display: 'inline-block', padding: '10px', color: 'grey'}}
                     onClick={() => this.setState({
                       isOpenExplanation: false,
@@ -388,7 +387,7 @@ class App extends Component {
         </CSSTransition>
         <div className="top-right-bar"></div>
         <div className="swipe-text">上にスワイプして<br/>ロック解除</div>
-        <a id="flashlight-button" className="flashlight-button">
+        <a href id="flashlight-button" className="flashlight-button">
           <div className="flashlight-icon-wrapper"
             style={{
               transform: flashlightIconTransform,
@@ -398,7 +397,7 @@ class App extends Component {
             <FlashlightIcon fill={isFlashlightOn? '#000' : '#fff'}/>
           </div>
         </a>
-        <a id="camera-button" className="camera-button">
+        <a href id="camera-button" className="camera-button">
           <div
             className="camera-icon-wrapper"
             style={{
@@ -447,7 +446,7 @@ class App extends Component {
             {showMenuText &&
               <div className="menu-text">← メニュー</div>
             }
-            <a
+            <a href
               className="lock-icon"
               onClick={() => this.setState({
                 showMenuText: false,
