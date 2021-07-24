@@ -27,6 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: Install
-      run: rm package-lock.json && npm i
+      run: rm -f package-lock.json && npm i
     - name: Build
-      run: npm run build
+      run: npm run build || npm -v && npm run
