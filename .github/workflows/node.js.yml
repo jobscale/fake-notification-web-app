@@ -29,6 +29,4 @@ jobs:
     - name: Install
       run: npm i
     - name: Build
-      run: npm run build
-      env:
-      - CI: true
+      run: CI=true npm run build
