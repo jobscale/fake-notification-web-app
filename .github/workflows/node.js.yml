@@ -29,4 +29,4 @@ jobs:
     - name: Install
       run: rm -f package-lock.json && npm i
     - name: Build
-      run: npm run build || npm -v && npm run
+      run: npm run build
