@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
-import uuid from 'uuid';
+import { v4 } from 'uuid';
+
+const uuid = v4;
 
 const LockIcon = ({fill}) => (
   <svg viewBox="0 0 46 67">
